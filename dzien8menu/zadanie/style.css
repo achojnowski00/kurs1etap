@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/*NAV*/
+nav {
+  background-color: #333;
+  padding-left: 20px;
+  border-bottom: 4px solid royalblue;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  padding: 20px 30px;
+  font-family: roboto
+}
+
+nav a:hover {
+  color: orange;
+}
+
+/*END OF NAV*/
+
+
+/*HEADER*/
+header {
+  height: 40vh;
+  background-image: url(molo.jpg);
+  background-size: cover;
+  background-position: center
+}
+
+/*END OF HEADER*/

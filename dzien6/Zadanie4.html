@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <style>
+    /*    ten selektor jest bardziej precyzyjny, nie patrzy co ma rodzic    */
+    body>div>p {
+      color: blue;
+    }
+
+    #header {
+      color: red;
+    }
+
+    /*    ten selektor jest jescze bardziej precyzyjny     */
+    #header>p {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="header">
+    <p>Pierwszy</p>
+    <p>Drugi</p>
+    <p>Trzeci</p>
+  </div>
+
+</body></html>

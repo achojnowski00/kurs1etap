@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #666;
+  border: 4px solid black
+}
+
+nav ul {
+  max-width: 1024px;
+  list-style: none;
+}
+
+nav ul li {}
+
+nav ul li a {}
+
+
+section {
+  height: 30vh;
+  background-color: rgb(220, 220, 220);
+}

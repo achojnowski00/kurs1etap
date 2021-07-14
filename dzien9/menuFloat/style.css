@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*  box-sizing: border-box;*/
+}
+
+body{
+  height: 120vh;
+}
+
+nav {
+/*  background-color: black;*/
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+nav div.logo {
+  width: 20%;
+  height: 40px;
+  padding-right: 10% ;
+/*  margin-right: 10%;*/
+  background-color: brown;
+  float: left
+}
+
+nav ul {
+  height: 40px;
+  width: 70%;
+  background-color: darkcyan;
+  float: left;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+}
+
+nav a {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  transition: .15s;
+}
+
+nav a:hover {
+  font-size: 26px;
+}
+
+
+div.obraz{
+width: 150px;
+height: 50px;
+  margin: 0 5px 4px 0;
+  background-color: aquamarine;
+  float: left
+}
+
+
+
+
+
+
+
+
+
+
+

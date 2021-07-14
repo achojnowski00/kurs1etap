@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  margin-top: 50vh;
+  /*  line-height: 100vh;*/
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed";
+  font-size: 5vh;
+  text-decoration: underline;
+}
+
+button {
+  text-align: center;
+  margin-top: 50px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-left: 50vw;
+}

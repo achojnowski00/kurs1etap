@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  ;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  background-color: #eee
+}
+
+div#wrapper {
+  max-width: 1440px;
+  /*  max-width: 800px;*/
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 15px grey;
+}
+
+html {
+  font-family: verdana, sans-serif;
+}
+
+header div {
+  float: left;
+  width: 20%;
+  height: 200px;
+  margin: 2.5%;
+  /*
+  width: 25%;
+  border: 20px solid white;
+*/
+  background-color: royalblue;
+  transition: .05s
+}
+
+header div:nth-child(1) {
+  background-color: #ced6e1
+}
+
+header div:nth-child(2) {
+  background-color: #38593D
+}
+
+header div:nth-child(3) {
+  background-color: #8C6A56
+}
+
+header div:nth-child(4) {
+  background-color: #2D3940
+}
+
+header div:nth-child(1):hover {
+  background-color: #bdc5d0 background-color: #bdc5d0
+}
+
+header div:nth-child(2):hover {
+  background-color: #27482c
+}
+
+header div:nth-child(3):hover {
+  background-color: #7b5945
+}
+
+header div:nth-child(4):hover {
+  background-color: #1c2830
+}
+
+
+nav.top {
+  background-color: #555;
+  padding: 10px 0 10px 50px;
+  margin: 20px 0;
+}
+
+nav.top ul {
+  list-style: none;
+  max-width: 1280px;
+}
+
+nav.top li {
+  float: left;
+  width: 20%;
+}
+
+nav.top a {
+  display: block;
+  /*  width: 200px;*/
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #333;
+  transition: .05s;
+}
+
+nav.top a:hover {
+  border-color: yellow;
+  color: yellow;
+}
+
+main {
+  margin-right: 20px;
+  float: left;
+  width: 65%;
+  padding: 10px;
+}
+
+div.blog {
+  margin-top: 40px;
+}
+
+main img {
+  width: 200px;
+  float: left;
+  margin: 5px 20px 0 0;
+}
+
+article h1 {
+  text-transform: uppercase;
+}
+
+article {
+  background-color: rgba(250, 250, 250, 1);
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+article p {
+  margin-top: 5px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+}
+
+section.contact {
+  background-color: #bbb;
+  padding: 15px;
+}
+
+section.contact p.title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+section.contact ul {
+  list-style: none;
+}
+
+section.contact li {
+  margin: 5px 0;
+}
+
+section.contact i {
+  margin-right: 10px;
+}
+
+section.news {
+  height: 300px;
+  margin-top: 20px;
+  background-color: #bbb;
+  padding: 15px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+footer {
+  padding: 15px 0;
+  margin-top: 40px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #444;
+  color: white;
+}

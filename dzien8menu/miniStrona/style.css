@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Roboto+Condensed:wght@300;400&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/*NAWIGACJA*/
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: right;
+
+}
+
+nav a {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  margin: 0 20px;
+}
+
+nav a.reservation {
+  padding: 10px 30px;
+  margin-right: 50px;
+  margin-left: 75px;
+  border: 2px solid #555;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  transition: .15s
+}
+
+nav a:hover {
+  border-bottom: 2px solid;
+  color: #000;
+}
+
+nav a.reservation:hover {
+  background-color: royalblue;
+  color: #eee;
+  border-color: royalblue;
+}
+
+/*KONIEC NAWIGACJI*/
+
+
+
+/*HEADER*/
+header {
+  height: 40vh;
+  background-image: url(samochod.jpg);
+  background-size: cover;
+
+}
+
+header h1 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+  line-height: 40vh;
+  background-color: rgba(0, 0, 0, 0.30)
+}
+
+/*KONIEC HEADER'A*/
+
+
+
+/*MAIN*/
+main {
+  max-width: 1440px;
+  margin: 5vh auto;
+  text-align: center;
+  font-size: 0;
+}
+
+main p.description {
+  font-size: 2.2rem;
+  margin: 0 30px 50px 30px;
+  line-height: 170%;
+}
+
+main div.feature {
+  display: inline-block;
+  width: 33.33%;
+}
+
+main div.clocks {
+  height: 200px;
+  background-image: url(speed.jpg);
+  background-size: cover;
+  margin: 20px 30px;
+}
+
+main div.parts {
+  height: 200px;
+  background-image: url(parts.jpg);
+  background-size: cover;
+  margin: 20px 30px;
+}
+
+main div.scam {
+  height: 200px;
+  background-image: url(brake.jpg);
+  background-size: cover;
+  margin: 20px 30px;
+}
+
+main h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+/*KONIEC MAIN*/
+
+
+
+/*STOPKA*/
+footer {
+  background-color: #000;
+}
+
+footer p {
+  color: whitesmoke;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+/*KONIEC STOPKI*/
